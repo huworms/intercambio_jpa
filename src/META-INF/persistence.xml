@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="intercambio_jpa">
+		<class>siemp.estadistica.sigj.intercambio_jpa.TCarpeta</class>
+		<class>siemp.estadistica.sigj.intercambio_jpa.TPresuntoResponsable</class>
+		<class>siemp.estadistica.sigj.intercambio_jpa.TTVictima</class>
+		<class>siemp.estadistica.sigj.intercambio_jpa.TMedidaLamvlv</class>
+		<class>siemp.estadistica.sigj.intercambio_jpa.TMedidaCnpp</class>
+	</persistence-unit>
+</persistence>
